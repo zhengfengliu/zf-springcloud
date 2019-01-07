@@ -1,6 +1,7 @@
 
-foo = foo version 2
-democonfigclient.message=hello spring io
+name: jiangnanke
+democonfigclient:
+  message: hello spring cloud config
 
 # routes to serviceId
 # routes to url

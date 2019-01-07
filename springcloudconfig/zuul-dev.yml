@@ -1,10 +1,15 @@
 
-server.port=8889
+server:
+  port: 10089
 # routes to serviceId
-zuul.routes.api-a.path=/userapi/**
-zuul.routes.api-a.serviceId=USER
-zuul.routes.api-b.path=/addressapi/**
-zuul.routes.api-b.serviceId=ADDRESS
+zuul:
+  routes:
+    api-r:
+      path: /userapi/**
+      serviceId: USER
+    api-f:
+      path: /addressapi/**
+      serviceId: ADDRESS
 
 # routes to url
 # zuul.routes.api-a-url.path=/userapi/**
