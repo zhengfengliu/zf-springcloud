@@ -1,5 +1,5 @@
 
-name: jiannanke--test
+name: jiannanke
 democonfigclient:
   message: hello spring cloud config
 
